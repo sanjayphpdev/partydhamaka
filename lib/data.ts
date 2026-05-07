@@ -20,7 +20,7 @@ export const packages = [
   },
   {
     id: ++counter,
-    name: "Theme Based Birthday Decoration",
+    name: "Theme Based Decoration",
     features: ["No DIY", "On Time"],
     category: "Balloon Decoration",
     price: {
