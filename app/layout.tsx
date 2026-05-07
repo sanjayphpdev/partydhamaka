@@ -1,8 +1,9 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-export const metadata = {
+import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
+export const metadata: Metadata = {
   title: "Birthday Party Services",
   description: "Book decoration, magicians & kids activities",
 };
@@ -19,6 +20,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-ERWQ7FRCG7" />
     </html>
   );
 }
