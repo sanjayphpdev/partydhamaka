@@ -24,7 +24,9 @@ export default async function PackageDetail({
       <Gallery media={pkg.media} />
 
       {/* Info */}
-      <h1 className="text-2xl font-bold">{pkg.name}</h1>
+      <h1 className="text-2xl md:text-3xl font-bold text-gray-900 leading-tight">
+        {pkg.name}
+      </h1>
       <p className="text-gray-500">{pkg.category}</p>
 
       {/* Pricing */}

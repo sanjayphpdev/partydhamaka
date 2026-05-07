@@ -7,7 +7,9 @@ export const metadata = {
 export default function TermsAndConditionsPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
-      <h1 className="text-4xl font-bold mb-6">Terms & Conditions</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 leading-tight">
+        Terms & Conditions
+      </h1>
 
       <p className="text-gray-500 mb-8">
         Effective Date: {new Date().getFullYear()}

@@ -14,7 +14,9 @@ export default function BookingClient() {
 
   return (
     <div className="max-w-xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4">Complete Your Booking</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-2">
+        Complete Your Booking
+      </h1>
 
       {/* Date */}
       <label className="block mb-2">Select Date</label>
