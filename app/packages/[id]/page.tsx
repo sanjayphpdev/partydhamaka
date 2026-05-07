@@ -19,7 +19,7 @@ export default async function PackageDetail({
     pkg.media.find((m: any) => m.type === "image") || pkg.media[0];
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="min-h-screen bg-gray-50 max-w-4xl mx-auto p-6">
       {/* Main Image */}
       <Gallery media={pkg.media} />
 
