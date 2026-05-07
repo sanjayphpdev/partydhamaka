@@ -25,9 +25,7 @@ export default function PackageCard({ pkg }: any) {
       </div>
 
       {/* Title */}
-      <h2 className="text-lg md:text-xl font-semibold text-gray-900 leading-snug">
-        {pkg.name}
-      </h2>
+      <h2 className="text-xl font-semibold">{pkg.name}</h2>
 
       {/* Category */}
       <p className="text-sm text-gray-500">{pkg.category}</p>
