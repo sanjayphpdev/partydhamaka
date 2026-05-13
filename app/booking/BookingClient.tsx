@@ -10,7 +10,7 @@ export default function BookingClient() {
   const [date, setDate] = useState("");
   const [address, setAddress] = useState("");
 
-  const whatsappUrl = `https://wa.me/9702512779?text=Hi, I want to book package ${pkg} on ${date} at ${address}`;
+  const whatsappUrl = `https://wa.me/9702512779?text=Hi, I want to book package ${pkg} on ${new Date(date).toLocaleDateString("en-GB")} at ${address}`;
 
   return (
     <div className="max-w-xl mx-auto p-6">

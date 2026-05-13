@@ -2,6 +2,7 @@ let counter = 0;
 export const packages = [
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Golden & Black Anniversary Decoration",
     category: "Anniversary Decoration",
     description:
@@ -46,6 +47,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Astronaut Theme Baby Welcome Decoration",
     category: "Baby Welcome Decoration",
     description:
@@ -90,6 +92,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Black & Silver Luxury Balloon Decoration",
     category: "Birthday Decoration",
     description:
@@ -136,6 +139,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Purple First Birthday Stage Decoration",
     category: "1st Birthday Decoration",
     description:
@@ -185,6 +189,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Romantic Anniversary Room Decoration",
     category: "Anniversary Decoration",
     description:
@@ -234,6 +239,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Personalized Balloon Room Decoration",
     category: "Anniversary Decoration",
     description:
@@ -283,6 +289,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "First Birthday Balloon Decoration",
     category: "Birthday Decoration",
     description:
@@ -327,6 +334,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Pink & Gold Baby Shower Decoration",
     category: "Baby Shower Decoration",
     description:
@@ -371,6 +379,7 @@ export const packages = [
   },
   {
     id: ++counter,
+    sku: `PD00${counter}`,
     name: "Pastel Blue & Pink Baby Shower Decoration",
     category: "Baby Shower Decoration",
     description:
@@ -415,7 +424,7 @@ export const packages = [
   },
   /*
   {
-    id: ++counter,
+    id: ++counter,sku: `PD00${counter}`,
     name: "First Birthday Decoration",
     features: ["No DIY", "On Time"],
     category: "Balloon Decoration",
@@ -433,7 +442,7 @@ export const packages = [
     ],
   },
   {
-    id: ++counter,
+    id: ++counter,sku: `PD00${counter}`,
     name: "Theme Based Decoration",
     features: ["No DIY", "On Time"],
     category: "Balloon Decoration",
@@ -451,7 +460,7 @@ export const packages = [
     ],
   },
   {
-    id: ++counter,
+    id: ++counter,sku: `PD00${counter}`,
     name: "Neon Light Birthday Decoration",
     features: ["No DIY", "On Time"],
     category: "Balloon Decoration",
@@ -473,7 +482,7 @@ export const packages = [
     ],
   },
   {
-    id: ++counter,
+    id: ++counter,sku: `PD00${counter}`,
     name: "Multi Color Ballon Decoration",
     features: ["No DIY", "On Time"],
     category: "Balloon Decoration",
@@ -488,7 +497,7 @@ export const packages = [
     ],
   },
   {
-    id: ++counter,
+    id: ++counter,sku: `PD00${counter}`,
     name: "Welcome Birthday Decoration",
     features: ["No DIY", "On Time"],
     category: "Balloon Decoration",
