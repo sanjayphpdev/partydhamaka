@@ -55,7 +55,7 @@ export default function PackageCard({ pkg }: any) {
 
       {/* CTA */}
       <div className="flex flex-col gap-3 mt-4">
-        <Link href={`/booking?package=${pkg.id}`}>
+        <Link href={`/booking?package=${pkg.sku}`}>
           <button className="w-full bg-pink-500 text-white py-3 rounded-xl font-medium hover:opacity-90 transition">
             Book Now
           </button>
