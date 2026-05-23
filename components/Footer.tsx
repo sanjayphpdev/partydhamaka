@@ -34,7 +34,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Contact</h3>
           <p className="text-sm">📞 +91 9702512779</p>
-          <p className="text-sm">📧 support@partydhamaka.in</p>
+          <p className="text-sm">📧 support@partydhamaka.com</p>
           <p className="text-sm mt-2">Mumbai, India</p>
         </div>
       </div>
