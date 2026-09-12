@@ -29,8 +29,8 @@ export default function PackageCard({ pkg }: any) {
 
       {/* Category */}
       <p className="text-sm text-gray-500">{pkg.category}</p>
-
-      {/* Pricing */}
+      {/*
+      
       <div className="mt-2">
         <span className="text-gray-400 line-through mr-2">
           ₹{pkg.price.total}
@@ -38,14 +38,14 @@ export default function PackageCard({ pkg }: any) {
         <span className="text-2xl font-bold text-pink-500">₹{finalPrice}</span>
       </div>
 
-      {/* Discount Badge */}
+      
       <p className="text-green-600 text-sm">Save ₹{pkg.price.discount}</p>
 
-      {/* Advance */}
+      
       <p className="text-sm text-gray-600 mt-1">
         ₹{pkg.price.advance} token to book
       </p>
-
+  */}
       {/* Features */}
       <ul className="text-sm text-gray-600 mt-3">
         {pkg.features.map((f: string, i: number) => (

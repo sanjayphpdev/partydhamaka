@@ -27,7 +27,7 @@ export default async function PackageDetail({
       <h1 className="text-2xl font-bold">{pkg.name}</h1>
       <p className="text-gray-500">{pkg.category}</p>
 
-      {/* Pricing */}
+      {/* 
       <div className="mt-3">
         <span className="text-gray-400 line-through mr-2">
           ₹{pkg.price.total}
@@ -36,12 +36,11 @@ export default async function PackageDetail({
         <p className="text-green-600 text-sm">Save ₹{pkg.price.discount}</p>
       </div>
 
-      {/* Advance */}
+      
       <p className="text-sm text-gray-600 mt-1">
         ₹{pkg.price.advance} token to book
       </p>
-
-      {/* Features */}
+*/}
       <ul className="mt-4 space-y-1 text-gray-700">
         {pkg.features.map((f: string, i: number) => (
           <li key={i}>✅ {f}</li>
